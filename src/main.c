@@ -143,7 +143,8 @@ int main()
     {
         if (listContain(multiples16, 800, multiples60[i]) && listContain(multiples45, 800, multiples60[i]) && multiples60[i] != 0)
         {
-            printf("%i, ", multiples60[i]);
+            printf("%i", multiples60[i]);
         }
     }
+    printf("\n");
 }
